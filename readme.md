@@ -220,19 +220,6 @@ This project uses the Haversine formula to calculate distance between two geogra
 
 Postman, Thunder Client, Browser (GET requests)
 
----
-
-# 📸 Screenshots Required
-
-Create a folder named `screenshots` in the root directory and add:
-
-- add-school.png
-- list-schools.png
-- server-running.png
-- database-table.png
-
-Reference them like:
-![Add School API](./screenshots/add-school.png)
 
 ---
 
@@ -243,15 +230,3 @@ Reference them like:
 - Accurate geolocation-based sorting using Haversine formula
 - MySQL used for persistent storage
 
----
-
-# 👨‍💻 Author
-
-Your Name
-
----
-
-# 📞 Contact
-
-Email: your-email  
-Phone: your-number
