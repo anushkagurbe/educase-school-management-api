@@ -75,7 +75,7 @@ Request Body:
 }
 
 📸 Screenshot:
-(./screenshots/Screenshot (840).png)
+![Add School API](./screenshots/add-school-1.png)
 
 Response:
 {
