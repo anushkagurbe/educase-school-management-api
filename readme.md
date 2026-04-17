@@ -87,7 +87,7 @@ Response:
 
 ## ➤ 2. List Schools (Sorted by Distance)
 
-GET: http://localhost:5000/api/listSchools?latitude=20.5204&longitude=77.8567  
+GET: http://localhost:8080/api/listSchools?latitude=20.5204&longitude=77.8567  
 Live API: https://educase-school-management-api-dtwd.onrender.com/api/listSchools?latitude=20.5204&longitude=77.8567 
 
 📸 Screenshot:
