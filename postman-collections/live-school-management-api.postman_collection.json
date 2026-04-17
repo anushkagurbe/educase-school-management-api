@@ -1,0 +1,71 @@
+{
+  "info": {
+    "_postman_id": "2e0077f3-d7de-44aa-9e13-c622bb402e90",
+    "name": "live-school-management-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "41851059"
+  },
+  "item": [
+    {
+      "name": "addSchool",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Sunrise Public School\",\r\n  \"address\": \"MG Road\",\r\n  \"latitude\": \"18.5204\",\r\n  \"longitude\": \"73.8567\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://educase-school-management-api-dtwd.onrender.com/api/addSchool",
+          "protocol": "https",
+          "host": [
+            "educase-school-management-api-dtwd",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "listSchools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://educase-school-management-api-dtwd.onrender.com/api/listSchools?latitude=20.5204&longitude=77.8567",
+          "protocol": "https",
+          "host": [
+            "educase-school-management-api-dtwd",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "20.5204"
+            },
+            {
+              "key": "longitude",
+              "value": "77.8567"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "info": {
+    "_postman_id": "f7057ec3-5a9e-48cc-b752-d126d41e0a19",
+    "name": "school-management-api-localhost",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "41851059"
+  },
+  "item": [
+    {
+      "name": "addSchool",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Andheri Excellence School\",\r\n    \"address\": \"Andheri\",\r\n    \"latitude\": 19.1136,\r\n    \"longitude\": 72.8697\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/addSchool",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "listSchools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/listSchools?latitude=80.5204&longitude=73.8567",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "80.5204"
+            },
+            {
+              "key": "longitude",
+              "value": "73.8567"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
